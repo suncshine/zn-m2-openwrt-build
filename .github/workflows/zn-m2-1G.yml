@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: zn-m2-see build
+name: zn-m2-1G build
 
 on:
   repository_dispatch:
@@ -162,7 +162,7 @@ jobs:
       run: |
         echo "release_tag=ZN-M2-$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         touch release.txt
-        echo "ZN-M2 firmware" >> release.txt
+        echo "ZN-M2 firmware FOR 1G RAM" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
