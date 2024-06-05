@@ -12,3 +12,4 @@
 
 # Uncomment a feed source
 #echo 'src-git custom https://github.com/xiaorouji/openwrt-passwall.git;packages' >>feeds.conf.default
+git clone -b master --depth 1 --single-branch https://github.com/vernesong/OpenClash package/xd/luci-app-openclash
